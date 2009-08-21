@@ -1,0 +1,21 @@
+#links {
+    page-break-inside: auto;
+}
+
+
+#links .links-info {
+    display: none;
+}
+
+#links #linklist .sidebox {
+    display: none;
+}
+#links #linklist .warning {
+    background: url(/links/img/warning.png) no-repeat;
+}
+
+#links h2.comments {
+    background: url(/links/img/comments.png) no-repeat;
+    padding-left: 20px;
+    margin-top: 2em;
+}

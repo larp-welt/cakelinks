@@ -1,0 +1,58 @@
+#users .login-info {
+    background: url(/links/img/64x64/unlock.png) 0px 0px no-repeat;
+    padding: 0 0 0 84px;
+    min-height: 64px;
+    margin-bottom: 2em;
+}
+
+#users .users-info {
+    background: url(/links/img/64x64/users.png) 0px 0px no-repeat;
+    padding: 0 0 0 84px;
+    min-height: 64px;
+    margin-bottom: 2em;
+}
+
+
+
+/* Admin Interface Definitions */
+
+#users #modtable {
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#users #modtable th {
+    background: url(/links/img/admin/bg01.png) repeat-x #00c;
+    border-top: 1px solid #77f;
+    border-bottom: 1px solid #77f;
+    margin: 0;
+    padding: 2px 5px;
+}
+
+#users #modtable td {
+    vertical-align: top;
+    overflow: scroll;
+    border-bottom: 1px solid #aaf;
+}
+
+#users #modtable tr td.first {
+    border-left: 1px solid #77f;
+    text-align: center;
+}
+
+#users #modtable tr td.last {
+    border-right: 1px solid #77f;
+    text-align: right;
+    padding-right: 4px;
+}
+
+#users #modtable tr.row0 {
+    background-color: none;
+}
+
+#users #modtable tr.row1 {
+    background-color: #eef;
+}

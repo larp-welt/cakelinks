@@ -1,0 +1,41 @@
+a.edit {
+    padding-left: 20px;
+    background: url(/links/img/pencil.png) no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a.view {
+    padding-left: 20px;
+    background: url(/links/img/eye.png) no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a.add {
+    padding-left: 20px;
+    background: url(/links/img/add.png) no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a.mod {
+    padding-left: 20px;
+    background: url(/links/img/wrench.png) no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a.comments {
+    padding-left: 20px;
+    background: url(/links/img/comments.png) no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a.broken {
+    padding-left: 20px;
+    background: url(/links/img/link_break.png) no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

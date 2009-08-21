@@ -1,0 +1,66 @@
+#tags #bigcloud {
+    padding: 0 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tags #bigcloud a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#tags #modtable {
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    width: 100%;
+    border-bottom: 1px solid #77f;
+}
+
+#tags #modtable th {
+    background-color: #aaf;
+    border-top: 1px solid #77f;
+    border-bottom: 1px solid #77f;
+    margin: 0;
+    padding: 2px 5px;
+}
+
+#tags #modtable td {
+    vertical-align: top;
+    overflow: scroll;
+    max-height: 120px;
+    text-align: right;
+}
+
+#tags #modtable tr td.first {
+    border-left: 1px solid #77f;
+    text-align: left;
+    width: 50%;
+}
+
+#tags #modtable tr td.last {
+    border-right: 1px solid #77f;
+}
+
+#tags #modtable tr.row0 {
+    background-color: none;
+}
+
+#tags #modtable tr.row1 {
+    background-color: #eef;
+}
+
+#tags #modtable p.message {
+    text-align: center;
+    margin: 2em;
+}
+
+#tags #legend {
+	border: 1px solid #ccc; 
+	display: block; 
+	height: 18px; 
+	text-align: center; 
+	padding: 4px;
+	margin-bottom: 4em;
+}

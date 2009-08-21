@@ -1,0 +1,146 @@
+body {
+    font-size: 12px;
+    font-family: 'lucida grande',verdana,helvetica,arial,sans-serif;
+    background-color: #fff;
+    min-width: 600px;
+    margin: 0;
+    padding: 0;
+    border: 0;			/* This removes the border around the viewport in old versions of IE */
+}
+
+img {
+    border: none;
+}
+
+input {
+    border: 1px solid #aaa;
+}
+
+input[type="submit"] {
+    margin-top: 4px;
+}
+
+#head {
+    width: 100%;
+    vertical-align: bottom;
+    font-size: 32px;
+    height: 82px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+
+#navbar {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    float: left;
+    position:relative;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar p {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar p a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 164px;
+    margin: 2px 0;
+}
+
+#navbar a:hover {
+    text-decoration: none;
+    background-color: #ddf;
+}
+
+#navbar p a.active {
+    background-color: #ddf;
+}
+
+#navbar a span {
+    position: relative;
+    top: 10px;
+}
+
+#foot {
+    clear: both;
+    position: relative;
+    top: 24px;
+    width: 100%;
+    padding: 3px 0;
+    margin: 16px 0px !important;
+    height: 18px;
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+}
+
+#foot .copyright {
+    float: left;
+    margin: 0 4px;
+}
+
+#foot .buttons {
+    float: right;
+    margin: 2px 4px;
+}
+
+#content {
+    margin: 0px 0px 0px 200px;
+    padding: 1em 1em;
+}
+
+#content .message {
+    border: 1px solid #99f;
+    background: url(/links/img/64x64/info.png) 10px 10px #ddf no-repeat;
+    padding: 5px 5px 5px 84px;
+    min-height: 64px;
+    margin: 2em 0;
+}
+
+#content .ok {
+    border: 1px solid #9f9;
+    background: url('/links/img/64x64/ok.png') 10px 10px #dfd no-repeat;
+    padding: 5px 5px 5px 84px;
+    min-height: 64px;
+    margin-bottom: 2em;
+}
+
+.links {
+    background: url(/links/img/admin/links.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.home {
+    background: url(/links/img/admin/home.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.tags {
+    background: url(/links/img/admin/tags.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.pagination .prev {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
+}
+
+.pagination .middle {
+    margin-left: auto;
+    margin-top: auto;
+}

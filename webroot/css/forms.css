@@ -1,0 +1,68 @@
+#content form fieldset {
+    border: 1px solid #aaa;
+    padding: 1em;
+    margin: 0;
+}
+
+#content form legend {
+    background-color: #fff;
+    padding-right: 2px;
+}
+
+#content form .input {
+    clear: both;
+}
+
+#content form input {
+    background: none;
+    float: left;
+    margin: 2px 0;
+}
+
+#content form input.form-error {
+    background: url(/links/img/zickzack.png) bottom repeat-x;
+}
+
+#content form label {
+    float: left;
+    width: 170px;
+    margin: 2px 0;
+}
+
+#content form .checkbox input {
+    margin: 6px 1em 0 0;
+}
+
+#content form .required label {
+    font-weight: bold;
+}
+
+#content form .checkbox label {
+    width: 95% !important;
+}
+
+#content form .error-message {
+    float: left;
+    margin: 2px 2px 1em 2px;
+    padding-left: 20px;
+    background: url(/links/img/error.png) no-repeat;
+}
+
+#content form .submit input {
+    margin: 2em 0px 0px 0px;
+    position: relative; /* fix for peekaboo bug from < IE7 */
+}
+
+#content form .input ul li {
+    background-image: none;
+}
+
+#content form .textarea label {
+    margin-top: 1em;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+#content form .textarea textarea {
+    clear: both;
+}

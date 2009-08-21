@@ -1,0 +1,372 @@
+body {
+    font-size: 12px;
+    font-family: 'lucida grande',verdana,helvetica,arial,sans-serif;
+    background-color: #fff;
+    min-width: 600px;
+    margin: 0;
+    padding: 0;
+    border: 0;			/* This removes the border around the viewport in old versions of IE */
+}
+
+img {
+    border: none;
+}
+
+ul {
+    padding-left: 0px;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+ul li {
+    background: url('/links/img/bullet.png') 0px 1px no-repeat;
+    margin: 0;
+    padding-left: 16px;
+}
+
+ul li.nobullets {
+    background-image: none !important;
+    padding-left: 0 !important;
+}
+
+input {
+    background: url('/links/img/shadow.png') 0px -4px repeat-x;
+    border: 1px solid #aaa;
+}
+
+input[type="submit"] {
+    background-image: none;
+    margin-top: 4px;
+}
+
+#head {
+    width: 100%;
+    height: 82px;
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+}
+
+#head img {
+    border: none;
+    float: left;
+}
+
+#bannertausch {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+#navbar {
+    padding: 0;
+    margin: 0;
+    margin-top: 64px;
+    margin-right: 6px;
+    float: right;
+}
+
+// background: url('/links/img/shadow.png') repeat-x;
+
+#navbar #mainnav {
+    padding: 2px;
+}
+
+#navbar #mainnav a {
+    text-decoration: none;
+    color: #666;
+}
+
+#navbar #mainnav a:hover {
+    color: #000;
+}
+
+#foot {
+    clear: both;
+    width: 100%;
+    padding: 3px 0;
+    border-top: 1px solid #aaa;
+    margin-top: 1em;
+    background: url('/links/img/shadow.png') repeat-x;
+    text-align: center;
+}
+
+#foot .copyright {
+    float: left;
+    margin: 0 4px;
+}
+
+#foot .stats {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+#foot .buttons {
+    float: right;
+    margin: 2px 4px;
+}
+
+ /* column container */
+ .colmask {
+    /* position:relative; */		/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+    clear:both;
+    float:left;
+    width:100%;				/* width of whole page */
+    overflow:hidden;		/* This chops off any overhanging divs */
+    }
+    /* holy grail 3 column settings */
+.holygrail {
+    /* Right column background colour */
+    background: url('/links/img/shadow.png') 0px -4px repeat-x #ddf;
+    }
+.holygrail .colmid {
+    float:left;
+    width:200%;
+    margin-left:-200px; 	/* Width of right column */
+    position:relative;
+    right:100%;
+    /* Centre column background colour */
+    background: url('/links/img/shadow.png') 0px 0px repeat-x #fff;
+}
+.holygrail .colleft {
+    float:left;
+    width:100%;
+    margin-left:-50%;
+    position: relative;
+    left:400px;         	/* Left column width + right column width */
+    /* Left column background colour */
+    background: url('/links/img/shadow.png') 0px -4px repeat-x #ddf;
+}
+.holygrail .contentwrap {
+    float:left;
+    width:50%;
+    position: relative;
+    right:200px;        	/* Width of left column */
+    padding-bottom:1em; 	/* Centre column bottom padding. Leave it out if it's zero */
+}
+.holygrail #content {
+    margin:0 215px;     	/* Centre column side padding:
+                            Left padding = left column width + centre column left padding width
+                            Right padding = right column width + centre column right padding width */
+    position: relative;
+    left:200%;
+    overflow:hidden;
+    padding-top: 1em;
+    }
+.holygrail #left {
+    float:left;
+    float:right;			/* This overrides the float:left above */
+    width:170px;        	/* Width of left column content (left column width minus left and right padding') */
+    position:relative;
+    right:15px;         	/* Width of the left-had side padding on the left column */
+    padding-top: 1em;
+}
+.holygrail #right {
+    float:left;
+    float:right;			/* This overrides the float:left above */
+    width:170px;        	/* Width of right column content (right column width minus left and right padding') */
+    margin-right:45px;  	/* Width of right column right-hand padding + left column left and right padding */
+    position:relative;
+    left:50%;
+    padding-top: 1em;
+}
+
+h1, h2 {
+    color: #00a;
+    margin-bottom: 1em;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+/* Allgemeine Formatierungen in der Mitte */
+
+#content h1 {
+    font-size: 144%;
+}
+
+#content h2 {
+    font-size: 121%;
+}
+
+#content p {
+    margin-bottom: 1em;
+}
+
+#content .message {
+    border: 1px solid #99f;
+    background: url('/links/img/64x64/info.png') 10px 10px #ddf no-repeat;
+    padding: 5px 5px 5px 84px;
+    min-height: 64px;
+    margin-bottom: 2em;
+}
+
+#content .ok {
+    border: 1px solid #9f9;
+    background: url('/links/img/64x64/ok.png') 10px 10px #dfd no-repeat;
+    padding: 5px 5px 5px 84px;
+    min-height: 64px;
+    margin-bottom: 2em;
+}
+
+
+/* Allgemeine Formatierungen in den Seitenleisten */
+
+.sidebar input {
+    width: 160px;
+}
+
+.sidebar h1 {
+    font-size: 100%;
+    background: url('/links/img/boxtop.png') top no-repeat;
+    margin: 10px 0 0 0;
+    padding: 0;
+    padding-left: 4px;
+}
+
+.sidebar .box {
+    background: url('/links/img/boxbottom.png') bottom no-repeat;
+    padding: 4px 4px 14px 4px;
+    margin: 0;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 2em;
+}
+.pagination .prev {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
+}
+
+.pagination .middle {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#searchbox {
+    background-color: #efe;
+    border: 1px solid #9c9;
+    padding: 1em;
+    margin: 2em auto;
+    text-align: right;
+	width: 85%;
+}
+
+#searchbox .input {
+    float: left;
+    margin: 4px;
+    padding: 0;
+    width: 80%;
+}
+
+#searchbox .input input {
+    width: 100%;
+    background-color: #fff;
+}
+
+#searchbox .submit {
+    padding: 0;
+    margin: 0;
+}
+
+#searchbox .submit input {
+    background-color: #fff;
+}
+
+
+
+/* LARP-Netz */
+
+#larpnetz {
+    margin: 0;
+    padding: 2px 4px;
+    background: url('/links/img/netzlogo.png') 3px 3px no-repeat #ddd;
+    border-bottom: 1px solid #bbb;
+    color: #777;
+    height: 17px;
+}
+
+#larpnetz .netzlogo {
+    padding-left: 20px;
+    float: left;
+}
+
+#larpnetz .member {
+    float: right;
+    padding: 0 6px;
+}
+
+#larpnetz .member:hover {
+    background-color: #ccc !important;
+    border-top: 1px solid #777;
+    border-left: 1px solid #777;
+}
+
+#larpnetz a {
+    text-decoration: none;
+    color: #777;
+}
+
+#larpnetz a:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#larpnetz .sep {
+    float: right;
+}
+
+.bug {
+    font-size: 72%;
+	vertical-align: 70%;
+}
+
+.service {
+    font-size: 80%;
+    text-align: center;
+}
+
+#webring {
+  margin-top: 3em;
+  text-align: center;
+}
+
+#webring table tbody tr td,
+#webring table tbody tr,
+#webring table tbody tr td a,
+#webring table tbody tr td a img,
+#webring table tbody,
+#webring table {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+#webring table tbody tr td a img {
+  vertical-align: bottom;
+}
+
+#webring table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+}
+
+.breadcrumbs {
+  padding: 0;
+  padding-bottom: 2em;
+  font-size: 82%;
+}
+
+.breadcrumbs a {
+  color: #888;
+  text-decoration: none;
+}

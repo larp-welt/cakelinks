@@ -1,0 +1,319 @@
+---
+UP: 
+  create_table: 
+    acos: 
+      no_dates: 
+      parent_id: 
+        type: integer
+        length: 10
+        is_null: 
+      model: 
+        type: string
+        length: 255
+        is_null: 
+      foreign_key: 
+        type: integer
+        length: 10
+        is_null: 
+      alias: 
+        type: string
+        length: 255
+        is_null: 
+      lft: 
+        type: integer
+        length: 10
+        is_null: 
+      rght: 
+        type: integer
+        length: 10
+        is_null: 
+    aros: 
+      no_dates: 
+      parent_id: 
+        type: integer
+        length: 10
+        is_null: 
+      model: 
+        type: string
+        length: 255
+        is_null: 
+      foreign_key: 
+        type: integer
+        length: 10
+        is_null: 
+      alias: 
+        type: string
+        length: 255
+        is_null: 
+      lft: 
+        type: integer
+        length: 10
+        is_null: 
+      rght: 
+        type: integer
+        length: 10
+        is_null: 
+    aros_acos: 
+      no_dates: 
+      aro_id: 
+        type: integer
+        length: 10
+        not_null: 
+      aco_id: 
+        type: integer
+        length: 10
+        not_null: 
+      _create: 
+        type: string
+        length: 2
+        not_null: 
+      _read: 
+        type: string
+        length: 2
+        not_null: 
+      _update: 
+        type: string
+        length: 2
+        not_null: 
+      _delete: 
+        type: string
+        length: 2
+        not_null: 
+    comments: 
+      title: 
+        type: string
+        length: 128
+        not_null: 
+      comment: 
+        type: text
+        length: 
+        not_null: 
+      user_id: 
+        type: integer
+        length: 11
+        not_null: 
+      status: 
+        type: integer
+        length: 4
+        is_null: 
+      parent_id: 
+        type: integer
+        length: 11
+        is_null: 
+      parent_model: 
+        type: string
+        length: 32
+        is_null: 
+    groups: 
+      no_dates: 
+      name: 
+        type: string
+        length: 64
+        not_null: 
+      parent_id: 
+        type: integer
+        length: 11
+        is_null: 
+      lft: 
+        type: integer
+        length: 11
+        is_null: 
+      rght: 
+        type: integer
+        length: 11
+        is_null: 
+    hits: 
+      - modified
+      no_dates: 
+      link_id: 
+        type: integer
+        length: 11
+        not_null: 
+      ip: 
+        type: integer
+        length: 11
+        is_null: 
+      id: 
+    links: 
+      title: 
+        type: string
+        length: 128
+        not_null: 
+      description: 
+        type: text
+        length: 
+        not_null: 
+      url: 
+        type: string
+        length: 128
+        not_null: 
+      lng: 
+        type: float
+        length: 
+        is_null: 
+      alt: 
+        type: float
+        length: 
+        is_null: 
+      start: 
+        type: date
+        length: 
+        is_null: 
+      end: 
+        type: date
+        length: 
+        is_null: 
+      user_id: 
+        type: integer
+        length: 11
+        not_null: 
+      status: 
+        type: integer
+        length: 4
+        is_null: 
+      hit_count: 
+        type: integer
+        length: 11
+        is_null: 
+      slug: 
+        type: string
+        length: 128
+        not_null: 
+      parent_id: 
+        type: integer
+        length: 11
+        is_null: 
+      comment_count: 
+        type: integer
+        length: 11
+        is_null: 
+      loc: 
+        type: string
+        default: null
+        length: 128
+        is_null: 
+      zip: 
+        type: string
+        length: 8
+        is_null: 
+    links_tags: 
+      no_dates: 
+      link_id: 
+        type: integer
+        length: 11
+        not_null: 
+      tag_id: 
+        type: integer
+        length: 11
+        not_null: 
+      id: 
+    profiles: 
+      no_dates: 
+      user_id: 
+        type: integer
+        length: 11
+        not_null: 
+      public_mail: 
+        type: string
+        length: 128
+        is_null: 
+      homepage: 
+        type: string
+        length: 128
+        is_null: 
+      description: 
+        type: text
+        length: 
+        is_null: 
+      signature: 
+        type: string
+        length: 128
+        is_null: 
+      image: 
+        type: string
+        length: 256
+        is_null: 
+      icon: 
+        type: string
+        length: 256
+        is_null: 
+      icq: 
+        type: string
+        length: 12
+        is_null: 
+      msn: 
+        type: string
+        length: 128
+        is_null: 
+      yahoo: 
+        type: string
+        length: 128
+        is_null: 
+      location: 
+        type: string
+        length: 256
+        is_null: 
+      realname: 
+        type: string
+        length: 128
+        is_null: 
+    tags: 
+      no_dates: 
+      name: 
+        type: string
+        length: 128
+        not_null: 
+      slug: 
+        type: string
+        length: 128
+        not_null: 
+    users: 
+      username: 
+        type: string
+        length: 64
+        not_null: 
+      password: 
+        type: string
+        length: 64
+        not_null: 
+      email: 
+        type: string
+        length: 64
+        not_null: 
+      lastlogin: 
+        type: datetime
+        length: 
+        is_null: 
+      group_id: 
+        type: integer
+        length: 11
+        is_null: 
+      slug: 
+        type: string
+        length: 64
+        not_null: 
+      disabled: 
+        type: integer
+        length: 1
+        is_null: 
+      token: 
+        type: string
+        length: 64
+        is_null: 
+      comment_count: 
+        type: integer
+        length: 11
+        is_null: 
+DOWN: 
+  drop_table: 
+    - acos
+    - aros
+    - aros_acos
+    - comments
+    - groups
+    - hits
+    - links
+    - links_tags
+    - profiles
+    - tags
+    - users

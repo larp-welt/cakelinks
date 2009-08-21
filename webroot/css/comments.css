@@ -1,0 +1,42 @@
+#comments .comment {
+    padding: 0;
+    margin-bottom: 1em;
+    background-color: #ddd;
+    clear: both;
+}
+
+#comments .meta {
+    clear: both;
+    float: left;
+    position: relative;
+    width: 100px;
+    background-color: none;
+    font-size: 80%;
+    padding: 2px;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+#comments .meta b {
+    font-size: 120%;
+}
+
+#comments .comment .text {
+    background: url(/links/img/keil.png) no-repeat #fff;
+    margin: 0;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+#comments .comment .text p {
+    padding: 0;
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+#comments .comment .text h3 {
+    margin: 0;
+    padding: 0;
+}

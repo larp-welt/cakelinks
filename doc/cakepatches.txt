@@ -1,0 +1,7 @@
+FS#6
+cake/libs/controller/components/auth.php
+
+if ($this->Session->check('Auth.redirect')) {
+    $redir = 'links'.$this->Session->read('Auth.redirect'); // XXX
+    $this->Session->delete('Auth.redirect');
+

@@ -1,0 +1,50 @@
+Index: acl.php
+===================================================================
+--- acl.php	(revision 6502)
++++ acl.php	(working copy)
+@@ -89,22 +89,33 @@
+  * @param boolean $created True if this is a new record
+  */
+ 	function afterSave(&$model, $created) {
+-		if ($created) {
+-			$type = $this->__typeMaps[strtolower($this->settings[$model->alias]['type'])];
+-			$parent = $model->parentNode();
+-			if (!empty($parent)) {
+-				$parent = $this->node($model, $parent);
+-			} else {
+-				$parent = null;
+-			}
+-
+-			$model->{$type}->create();
+-			$model->{$type}->save(array(
++		$type = $this->__typeMaps[strtolower($this->settings[$model->alias]['type'])];
++		$parent = $model->parentNode();
++		if (!empty($parent)) {
++			$parent = $this->node($model, $parent);
++		} else {
++			$parent = null;
++		}
++		
++		if (!$created) {
++			// If modified, get the old ARO
++			$node = $this->node($model);
++			$data = array(
++				'id'			=> Set::extract($node, "0.{$type}.id"),
+ 				'parent_id'		=> Set::extract($parent, "0.{$type}.id"),
+ 				'model'			=> $model->alias,
+ 				'foreign_key'	=> $model->id
+-			));
++			);
++		} else {
++			$data = array(
++				'parent_id'		=> Set::extract($parent, "0.{$type}.id"),
++				'model'			=> $model->alias,
++				'foreign_key'	=> $model->id
++			);
+ 		}
++		
++		$model->{$type}->create();
++		$model->{$type}->save($data);
+ 	}
+ /**
+  * Destroys the ARO/ACO node bound to the deleted record

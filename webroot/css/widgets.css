@@ -1,0 +1,79 @@
+#content form .tagchooser {
+    display: none;
+}
+
+#content form .tc-right {
+    width: 150px;
+    height: 100px;
+}
+
+#content form .tc-left {
+    width: 150px;
+    height: 124px;
+}
+
+#content form .tc-new {
+    width: 125px;
+    height: 20px;
+    margin-bottom: 2px;
+    float: left;
+}
+
+#content form .tc-newbutton {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 3px 5px 0;
+    text-indent: -2000px;
+    overflow: hidden;
+    background: url(/links/img/add.png) no-repeat; 
+    float: right;
+    cursor: pointer;
+}
+
+#content form a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 2px 5px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(/links/img/calendar.png) no-repeat; 
+}
+#content form a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+#content form input.dp-applied {
+	width: 100px !important;
+	float: left;
+        margin-top: 1px;
+        margin-bottom: 1px;
+}
+
+#content form legend.down {
+        background: url(/links/img/slideup.png) no-repeat #fff;
+        padding-left: 20px;
+        cursor: pointer;
+}
+
+#content form legend.up {
+        background: url(/links/img/slidedown.png) no-repeat #fff;
+        padding-left: 20px;
+        cursor: pointer;
+}
+
+#content form .collapsed {
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        height: 2px;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+}

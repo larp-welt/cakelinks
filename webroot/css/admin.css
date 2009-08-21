@@ -1,0 +1,176 @@
+body {
+    font-size: 12px;
+    font-family: 'lucida grande',verdana,helvetica,arial,sans-serif;
+    background-color: #fff;
+    min-width: 600px;
+    margin: 0;
+    padding: 0;
+    border: 0;			/* This removes the border around the viewport in old versions of IE */
+}
+
+img {
+    border: none;
+}
+
+input {
+    border: 1px solid #aaa;
+}
+
+input[type="submit"] {
+    margin-top: 4px;
+}
+
+#head {
+    width: 100%;
+    background-color: #00a;
+    color: #fff;
+    vertical-align: bottom;
+    font-size: 32px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color: #ccf;
+    border-right: 1px solid #00a;
+    float: left;
+    position:relative;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar a.panelhead {
+    display: block;
+    width: 195px;
+    height: 18px;
+    border-top: 1px solid #eef;
+    border-bottom: 1px solid #003;
+    background: url(/links/img/admin/bg01.png) repeat-x #00c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+
+#navbar p {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar p a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 164px;
+    margin: 2px 0;
+}
+
+#navbar a:hover {
+    text-decoration: none;
+    background-color: #ddf;
+}
+
+#navbar p a.active {
+    background-color: #ddf;
+}
+
+#navbar a span {
+    position: relative;
+    top: 10px;
+}
+
+#foot {
+    clear: both;
+    width: 100%;
+    padding: 3px 0;
+    margin-top: 1em;
+    background-color: #00a;
+    color: #fff;
+    height: 18px;
+}
+
+#foot .copyright {
+    float: left;
+    margin: 0 4px;
+}
+
+#foot .buttons {
+    float: right;
+    margin: 2px 4px;
+}
+
+#content {
+    margin: 0px 0px 0px 200px;
+    padding: 0 1em;
+}
+
+#content .message {
+    border: 1px solid #99f;
+    background: url(/links/img/64x64/info.png) 10px 10px #ddf no-repeat;
+    padding: 5px 5px 5px 84px;
+    min-height: 64px;
+    margin: 2em 0;
+}
+
+.bin {
+    background: url(/links/img/admin/basket.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.links {
+    background: url(/links/img/admin/links.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.link {
+    background: url(/links/img/admin/link.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.rebuild {
+    background: url(/links/img/admin/rebuild.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.users {
+    background: url(/links/img/admin/users.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.addusers {
+    background: url(/links/img/admin/add_user.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.info {
+    background: url(/links/img/admin/info.png) 2px 2px no-repeat;
+    padding-left: 36px !important;
+    height: 36px;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.pagination .prev {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
+}
+
+.pagination .middle {
+    margin-left: auto;
+    margin-top: auto;
+}

@@ -1,0 +1,111 @@
+body {
+    font-size: 12pp;
+    font-family: 'lucida grande',verdana,helvetica,arial,sans-serif;
+    margin: 0 1cm 0 1.5cm;
+    padding: 0;
+    border: 0;			/* This removes the border around the viewport in old versions of IE */
+}
+
+img {
+    border: none;
+}
+
+ul {
+    padding-left: 0px;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+ul li {
+    background: url(/links/img/bullet.png) 0px 1px no-repeat;
+    margin: 0;
+    padding-left: 16px;
+}
+
+ul li.nobullets {
+    background-image: none !important;
+    padding-left: 0 !important;
+}
+
+input {
+    background: none;
+    border: 1px solid #aaa;
+}
+
+input[type="submit"] {
+    background-image: none;
+    margin-top: 4px;
+}
+
+#head {
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+}
+
+#head img {
+    border: none;
+}
+
+#navbar {
+    display: none;
+}
+
+#foot {
+    display: none;
+}
+
+ /* column container */
+ 
+.holygrail #content { 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+.holygrail #left {
+    display: none;
+}
+.holygrail #right {
+    display: none;
+}
+
+h1, h2 {
+    color: #00a;
+    margin-bottom: 1em;
+}
+
+/* Allgemeine Formatierungen in der Mitte */
+
+#content h1 {
+    font-size: 144%;
+}
+
+#content h2 {
+    font-size: 121%;
+}
+
+#content p {
+    margin-bottom: 1em;
+}
+
+#content .message {
+    display: none;
+}
+
+
+
+/* Allgemeine Formatierungen in den Seitenleisten */
+
+.pagination {
+    display: none;
+}
+
+#searchbox {
+    display: none;
+}
+
+/* LARP-Netz */
+
+#larpnetz {
+    display: none;
+}

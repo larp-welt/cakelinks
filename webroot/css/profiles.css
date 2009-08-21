@@ -1,0 +1,22 @@
+#profile h2 {
+  clear: both;
+  margin: 0;
+  margin-top: 2em;
+}
+
+#profile .row {
+  clear: both;
+}
+
+#profile .row div.label {
+  width: 12em;
+  float: left;
+}
+
+#profile .row div {
+  float: left;
+}
+
+.image {
+  text-align: center;
+}

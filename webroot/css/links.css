@@ -1,0 +1,144 @@
+#links .links-info {
+    background: url(/links/img/64x64/earth.png) 0px 0px no-repeat;
+    padding: 0 0 0 84px;
+    min-height: 64px;
+    margin-bottom: 2em;
+}
+
+#links #linklist .sidebox {
+    width: 120px;
+    float: right;
+    margin: 0 0 1em 1em;
+    position: relative;
+}
+
+#links #linklist .sidebox ul li {
+    padding-left: 0;
+    background-image: none;
+}
+
+#links #linklist .sidebox ul li a {
+    text-decoration: none;
+    font-size: 82%;
+}
+
+#links #linklist dl dt {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#links #linklist dt a {
+    text-decoration: none;
+    font-size: 121%;
+}
+
+#links #linklist dd {
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+#links #linklist dd p {
+    margin: 0.5em 0;
+}
+
+#links #linklist .subline  {
+    font-size: 82%;
+    margin: 2px 0;
+    color: #777;
+}
+
+#links #linklist .tags {
+    font-size: 82%;
+    margin: 2px 0;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    color: #777;
+    background: url(/links/img/tag.png) no-repeat;
+}
+
+#links #linklist .tags a,
+#links #linklist .subline a {
+    color: #777;
+    text-decoration: none;
+}
+
+#links #linklist table {
+    margin-top: 2em;
+}
+
+#links #linklist th {
+    text-align: left;
+    color: #00a;
+    padding-right: 1em;
+    font-weight: normal;
+}
+#links #linklist td {
+    width: 25%;
+}
+
+#links #modtable {
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#links #modtable th {
+    background-color: #aaf;
+    border-top: 1px solid #77f;
+    border-bottom: 1px solid #77f;
+    margin: 0;
+    padding: 2px 5px;
+}
+
+#links #modtable td {
+    vertical-align: top;
+    overflow: scroll;
+    max-height: 120px;
+}
+
+#links #modtable tr td.first {
+    border-left: 1px solid #77f;
+    text-align: center;
+}
+
+#links #modtable tr td.last {
+    border-right: 1px solid #77f;
+}
+
+#links #modtable .lower td {
+    border-bottom: 1px solid #aaf;
+}
+
+#links #modtable tr.row0 {
+    background-color: none;
+}
+
+#links #modtable tr.row1 {
+    background-color: #eef;
+}
+
+#links #modtable tr.rowUpper {
+
+}
+
+#links #modtable p.message {
+    text-align: center;
+    margin: 2em;
+}
+
+#links #linklist .warning {
+    background: url(/links/img/warning.png) no-repeat #ddd;
+    padding-left: 20px;
+    font-weight: bold;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+
+#links h2.comments {
+    background: url(/links/img/comments.png) no-repeat;
+    padding-left: 20px;
+    margin-top: 2em;
+}
